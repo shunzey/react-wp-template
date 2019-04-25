@@ -1,0 +1,26 @@
+{
+  "name": "react-wp",
+  "version": "1.0.0",
+  "description": "React app template with webpack",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --debug --output-pathinfo --devtool inline-source-map",
+    "start": "webpack-dev-server --devtool inline-source-map"
+  },
+  "keywords": [],
+  "author": "shunzey",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
